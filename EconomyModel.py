@@ -12,7 +12,6 @@ economy_token_wealth = 1
 asset_mean = 500
 asset_stdev = 100
 fraction_to_reward = 20 # one in this many agents to reward for assuring ownership
-                       # set 1 in 2 (50%) for easier demonstaration of effect of incentive on smaller number of agents
 liquidity_providers_incentive_pool = 0
 
 
@@ -220,7 +219,6 @@ class LiquidityPoolModel(Model):
                 self.grid.place_agent(liquidity_provider, (x, y))
             except Exception:
                 self.grid.place_agent(liquidity_provider, self.grid.find_empty)
-
 
 
     def add_liquidity_providers(self, liquidity_providers_incentive_pool):
