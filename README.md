@@ -1,7 +1,7 @@
 # Token Economy Agent Based Model
-A model of an economy where behavior is modeled at the agent (individual actor) level. These agents are part of a decentralized autonomous organization (DAO). Suitable incentive mechanisms are desired such that will motivate these agents to act in line with the objectives of the Enterprise.
+A model of an economy where behavior is modeled at the agent (individual actor) level. These agents are part of a decentralized autonomous organization (DAO). Suitable incentive mechanisms are desired such that will motivate these agents to act in line with the objectives of the organization.
 
-The analysis herein is on the effect of different incentive mechanisms and what volumes of incentives to give that will contribute best to the realization of the goals of the Enterprise.
+The analysis herein is on the effect of different incentive mechanisms and what volumes of incentives to give that will contribute best to the realization of these objectives.
 
 An agent-based model is prefered since we want to establish the effect of random incentivization in the network on individual agents and the effect of certain behaviors by majority/ sections of the network on individual agents.
 
