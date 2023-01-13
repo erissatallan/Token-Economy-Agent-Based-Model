@@ -31,6 +31,7 @@ def get_model_assurance_probability(model):
     return model.model_assurace_probability
 
 
+
 class EconomyModel(Model):
 
     global assurance_incentive_pool, protocol_revenue
@@ -185,7 +186,8 @@ class AgentModel(Agent):
         self.assurance_probability += (1 - self.assurance_probability) * (1 / (1 + math.exp(-1 * (incentive) )))
 
         
-    # def non_incentivization_effect(self): move effect here for more detail            
+    def non_incentivization_effect(self):
+        pass
 
     def step(self):
         self.evaluate_incentive(self.model.model_assurace_probability, fraction_to_reward) # more like dis/incentivize
